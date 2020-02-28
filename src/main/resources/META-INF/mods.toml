@@ -1,0 +1,29 @@
+
+modLoader="javafml" #mandatory
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[30,)" #mandatory (28 is current forge version)
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+# The modid of the mod
+modId="bohrmod" #mandatory
+# The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
+version="bohr.1" #mandatory
+ # A display name for the mod
+displayName="Bohr Mod" #mandatory
+# A URL to query for updates for this mod. See the JSON update specification <here>
+updateJSONURL="http://writeinthecode.com" #optional
+# A URL for the "homepage" for this mod, displayed in the mod UI
+displayURL="https://writeinthecode.com" #optional
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="witc.png" #optional
+# A text field displayed in the mod UI
+credits="Thanks for checking out this mod, see writeinthecode.com to view the video on why and how!" #optional
+# A text field displayed in the mod UI
+authors="james@writeinthecode.com" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''Bohr Mod!
+This awesome minecraft mod walks the user through the complexities of writing a simple block mod for Minecraft.
+The sourcecode is free, so, do what you want with it.
+
+You can access the video explaining the how and the why of making this mod (and the computer setup) on writeinthecode.com.
+'''
